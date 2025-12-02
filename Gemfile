@@ -67,3 +67,4 @@ gem 'sassc-rails'
 group :production do
   gem "pg"
 end
+gem 'sass-rails'
