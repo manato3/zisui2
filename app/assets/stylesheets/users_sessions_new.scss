@@ -10,7 +10,7 @@ align-items: center;
 width: 50%;
 text-align: center;
 color: rgb(0, 0, 0);
-background: #fbff2a;
+// background: #fbff2a;
 border-radius: 50px;
 margin: 30px 5px;
 padding: 40px 40px;
@@ -26,30 +26,30 @@ padding: 40px 40px;
 // }
 // // 場合に応じて入力する場所の大きさ変えたいよね！その場合は、.class名スペースinputで差別化する！
 // // passwardの枠だけでかくしたかったらどうしたらいいかな？？
-// .field input[type="email"] {
-// border-style: none;
-// width: 200px;
-// height: 30px;
+.field input[type="email"] {
+border-style: none;
+width: 230px;
+height: 20px;
 // background: #87F02B;
-// border-radius: 10px;
+border-radius: 50px;
 // border: 1px #060339 solid;
-// }
-// .field input[type="password"] {
-// border-style: none;
-// width: 200px;
-// height: 30px;
-// background: #33B887;
-// border-radius: 10px;
+}
+.field input[type="password"] {
+border-style: none;
+width: 230px;
+height: 20px;
+// background: #08754d;
+border-radius:50px;
 // border: 1px #060339 solid;
-// }
-// .actions input[type="submit"] {
+}
+.actions input[type="submit"] {
 // border-style: none;
 // width: 150px;
 // height: 30px;
-// background: #F2A566;
-// border-radius: 10px;
+background: #dee050;
+border-radius: 50px;
 // border: 1px #060339 solid;
-// }
+}
 // .actions input[type="submit"]:hover {
 // cursor: pointer;
 // background: linear-gradient(to bottom,#1C94EA,#5ba2f4f3);

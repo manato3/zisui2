@@ -28,7 +28,7 @@ body {
   background-size: cover;
 }
 header {
-  background-color: #00acee;
+  background-color: #ee8700;
   height: 80px;
   font-weight: bold;
   display: flex;
@@ -36,11 +36,11 @@ header {
   align-items: center;
 }
 header a {
-  color: white; 
+  color: rgb(255, 255, 255); 
   text-decoration: none; 
 }
 header h1 {
-  color: white;
+  color: rgb(255, 255, 255);
   margin-left: 20px;
 }
 .header-list {
