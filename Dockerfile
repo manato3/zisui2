@@ -72,7 +72,7 @@ RUN groupadd --system --gid 1000 rails && \
 USER 1000:1000
 
 # Entrypoint prepares the database.
-./bin/rails db:migrate && ./bin/rails server -b 0.0.0.0 -p 8000
+CMD ./bin/rails db:migrate && ./bin/rails server -b 0.0.0.0 -p 8000
 
 # Start the server by default, this can be overwritten at runtime
 EXPOSE 8000
