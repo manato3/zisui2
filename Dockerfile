@@ -77,4 +77,4 @@ CMD ./bin/rails db:migrate
 # Start the server by default, this can be overwritten at runtime
 CMD ./bin/rails db:migrate && ./bin/rails server -b 0.0.0.0 -p 8000
 EXPOSE 8000
-CMD ["sh", "-c", "./bin/rails db:migrate && ./bin/rails server -b 0.0.0.0 -p 8000"]
+CMD ["./bin/rails", "db:migrate", "&&", "./bin/rails", "server", "-b", "0.0.0.0", "-p", "8000"]
