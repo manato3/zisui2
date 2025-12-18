@@ -76,7 +76,6 @@ CMD ./bin/rails db:migrate
 
 # Start the server by default, this can be overwritten at runtime
 CMD ./bin/rails db:migrate && ./bin/rails server -b 0.0.0.0 -p 8000
-RUN chmod +x bin/rails
 RUN groupadd --system --gid 1000 rails && \ useradd rails --uid 1000 --gid 1000 --create-home --shell /bin/bash && \ chown -R rails:rails db log storage tmp
 EXPOSE 8000
 CMD ["sh", "-c", "./bin/rails db:migrate && ./bin/rails server -b 0.0.0.0 -p 8000"]
