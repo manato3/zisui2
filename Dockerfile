@@ -78,3 +78,4 @@ CMD ./bin/rails db:migrate
 CMD ./bin/rails db:migrate && ./bin/rails server -b 0.0.0.0 -p 8000
 EXPOSE 8000
 CMD ["./bin/rails", "db:migrate", "&&", "./bin/rails", "server", "-b", "0.0.0.0", "-p", "8000"]
+RUN chmod +x bin/rails
